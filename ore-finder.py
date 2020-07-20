@@ -1,9 +1,9 @@
-#Ore
+#Ore Finder
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
 
-def oreFinder(id,blockName,ind,*args):
+def oreFinder(id,blockName,ind,*args):                                       #Create Ore Finder Variable
     x,y,z = mc.player.getPos()
     for i in range (1,64):
         blockFound = mc.getBlock(x,y-i,z)
