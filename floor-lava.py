@@ -1,4 +1,4 @@
-# the floor be lava
+# the floor be lavaa
 from mcpi.minecraft import Minecraft
 import time 
 import random
