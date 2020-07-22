@@ -5,7 +5,7 @@ import random
 
 mc = Minecraft.create()
 x,y,z = mc.player.getPos()
-highScore = 0
+#highScore = 0
 def GameStart(): 
     #Startup
     mc.setBlocks(x,y+5,z,x+3,y+5,z+3,20)
@@ -27,11 +27,11 @@ def GameStart():
         if y  <y2:
             mc.postToChat("YOU LOSE :(")
             mc.postToChat("Your Score was %s points" % points)
-            if points > highScore:
-                mc.postToChat("New High Score: %s points" %highScore) 
-                highScore = points
-            else:
-                mc.postToChat("High Score: %s points" %highScore)
+            #if points > highScore:
+                #mc.postToChat("New High Score: %s points" %highScore) 
+                #highScore = points
+            #else:
+                #mc.postToChat("High Score: %s points" %highScore)
             time.sleep(3)
             break
         else:
