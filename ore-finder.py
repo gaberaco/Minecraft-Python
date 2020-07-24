@@ -21,3 +21,5 @@ while True:
     oreFinder(16,"Coal",171,15)
     oreFinder(14,"Gold",171,4)
     oreFinder(66,"Mine Shaft",85)
+    oreFinder(52,"Monster Spawner",171,9)
+  
