@@ -20,3 +20,4 @@ while True:
     oreFinder(73,"Redstone",171,14)
     oreFinder(16,"Coal",171,15)
     oreFinder(14,"Gold",171,4)
+    oreFinder(66,"Mine Shaft",85)
