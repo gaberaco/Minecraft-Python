@@ -1,7 +1,7 @@
 #Farm Bot
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-mc.postToChat("Farm Bot Active")
+mc.postToChat("Farm Bot Enabled")
 
 
 seeds = 100
@@ -15,6 +15,6 @@ while(seeds > 0):
         seeds = seeds - 1
         seedsChat = str(seeds)
         mc.postToChat("Seed Planted. "+seedsChat+"Seeds Remaining")
-mc.postToChat("FarmBot Deactive")
+mc.postToChat("Farm Bot Disabled")
 
 
